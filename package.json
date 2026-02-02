@@ -1,0 +1,12 @@
+{
+  "name": "manga-cover-generator",
+  "version": "1.0.0",
+  "description": "Generate a simple manga cover PNG via Node.js (SVG -> PNG using sharp)",
+  "main": "generate_cover.js",
+  "scripts": {
+    "generate": "node generate_cover.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.0"
+  }
+}
